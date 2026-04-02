@@ -1,9 +1,16 @@
-# Sales-Performance-Analysis
-Sales data analysis project with cleaning, EDA and dashboard
 # Sales Performance Analysis
 
 ## Project Overview
-This project analyzes sales data to identify trends, top-performing products, and regional sales performance. The goal is to generate business insights from the dataset.
+This project analyzes sales data to identify trends, top-performing products, and regional sales performance. The goal of this analysis is to generate meaningful business insights that support data-driven decision-making.
+
+The analysis was conducted using Excel, including pivot tables and visualizations to better understand sales performance across products, regions, and time.
+
+## Objectives
+- Analyze overall sales performance
+- Identify top-performing products
+- Compare regional sales performance
+- Examine monthly sales trends
+- Generate business insights
 
 ## Tools Used
 - Excel
@@ -11,7 +18,7 @@ This project analyzes sales data to identify trends, top-performing products, an
 - GitHub
 
 ## Dataset Description
-The dataset includes the following fields:
+The dataset contains the following variables:
 - Date
 - Product
 - Category
@@ -19,33 +26,50 @@ The dataset includes the following fields:
 - Units Sold
 - Sales ($)
 
+The **Sales ($)** column was treated as revenue for this analysis.
+
 ## Analysis Performed
-- Data cleaning
+- Data cleaning and validation
 - Duplicate checks
-- Summary statistics
+- Pivot table creation
 - Monthly sales trend analysis
-- Top-selling product analysis
+- Top product performance analysis
 - Regional sales performance analysis
+- Data visualization
 
 ## Visualizations
+Charts created for this analysis include:
+- Monthly Sales Trend
+- Top 3 Best-Selling Products
+- Sales Performance by Region
 
-### Monthly Sales Trend
-![Monthly Sales Trend](visuals/monthly_sales_trend.png)
-
-### Top 3 Best-Selling Products
-![Top Products](visuals/top_products.png)
-
-### Sales Performance by Region
-![Sales by Region](visuals/sales_by_region.png)
+Charts are available in the **visuals** folder.
 
 ## Business Insights
-- Monthly sales show fluctuations across the year.
-- Some products contribute more to overall revenue than others.
-- Regional sales vary, indicating opportunities for targeted strategies.
-- Sales ($) column was treated as revenue for analysis.
+
+### Regional Performance
+- The **North region recorded the highest total sales** at **303,985.47**, indicating strong market demand and performance in this region.
+- This suggests that the North region could be prioritized for inventory allocation and marketing efforts.
+
+### Top Performing Products
+- The **top-performing product was Tablets**, generating **131,691.04** in total sales.
+- This was followed by:
+  - **Headphones** with **115,025.86**
+  - **Keyboards** with **112,224.48**
+- These products contribute significantly to total revenue and may represent high-demand items worth prioritizing.
+
+### Monthly Sales Performance
+- **January recorded the highest sales** at **119,873.48**, making it the best-performing month.
+- The **lowest-performing month recorded sales of 60,487.89**, indicating a significant drop in sales during that period.
+- This variation suggests seasonal demand patterns, which could inform planning, promotions, and stock management.
+
+### Overall Insights
+- Sales performance varies across regions, products, and months, indicating opportunities for targeted business strategies.
+- Focusing on high-performing regions and products, while improving performance in weaker months, could help increase overall revenue.
 
 ## Conclusion
-This project demonstrates Excel-based data analysis including cleaning, aggregation, and visualization. It forms part of my data analytics portfolio.
+This project demonstrates the use of Excel for data cleaning, aggregation, and visualization. The analysis provides actionable insights into sales performance and highlights opportunities for business improvement.
 
 ## Author
 Njeri Ndungu
+Data Analyst Portfolio Project
