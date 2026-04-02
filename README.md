@@ -71,5 +71,6 @@ Charts are available in the **visuals** folder.
 This project demonstrates the use of Excel for data cleaning, aggregation, and visualization. The analysis provides actionable insights into sales performance and highlights opportunities for business improvement.
 
 ## Author
-Njeri Ndungu
+Njeri Ndungu,
+
 Data Analyst Portfolio Project
